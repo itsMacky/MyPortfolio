@@ -1,38 +1,237 @@
-.App {
+.navigation{
+  background-color: orangered;
+  margin: auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.git{
+  background-color: green;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.title{
+  background: #232526;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.progress{
+  height: 20px;
+  background: #636e72;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.subtitle {
+  font-family:  sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 100px;
+}
+
+.container {
+  max-width: 500px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 1rem;
+  
+}
+
+.divider-s {
+  border-top: 2px solid #dfe6e9;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+  width: 50%;
+}
+
+.prg{
+  height: 20px;
+  background:#ff7675;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.page-content{
+  background-color: #2d3436;
+}
+
+.typeist{
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-bottom: 50px;
+  
+}
+
+.myimg{
+  border-radius: 50%;
+}
+
+.cent{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.cennt{
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.content{
+  background: #CC95C0;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.ban{
+  background-color: black;
+  opacity: 0.8;
+  text-align: center;
+  color: white;
+  border-radius: 2em;
+  padding: 2em;
+  margin-top: 20px;
+  width: 50%;
+  margin: auto;
+}
+
+.ban hr{
+  widows: 50%;
+  border-top: white dotted;
+  margin: auto;
+  width: 50%;
+}
+
+.icons{
+  font-size: 50px;
+}
+
+.icons span{
+  padding: 50px;
+}
+
+.contact-grid{
+  background-color: black;
+  opacity: 0.8;
+  color: white;
+  padding: 2em;
+  width: 50%;
+  border-radius: 2em;
+  text-align: center;
+  margin:auto;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+
+}
+
+.cg{
+  background-color: grey;
+  border-radius: 2em;
+  width: 50%;
+  text-align: center;
+
+}
+.cg h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.contact-grid p{
+  width: 70%;
+  padding: 2rem;
+  margin: auto;
+
+}
+
+.cg2{
+  background-color: grey;
+  border-radius: 2em;
+  padding: 2em;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.cg2 h2{
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.cg2 td{
+  font-weight: bold;
+  text-align: center;
+  font-size: larger;
+  margin-bottom: 50px;
+}
+
+.table{
+  font-size: 1.2rem;
+  margin-top: auto;
+  text-align: center;
+  font-weight: bold;
+}
+
+.table a{
+  font-size: large;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+@media screen and (max-width:500px){
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .typeist{
+    margin-top: 2em;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
   }
-  to {
-    transform: rotate(360deg);
+
+  .ban{
+    background-color: black;
+    opacity: 0.8;
+    text-align: center;
+    color: white;
+    border-radius: 2em;
+    padding: 2em;
+    margin-top: 20px;
+    width: 80%;
   }
+
+  .ban h1{
+    font-size: 10;
+    margin: 5px;
+  }
+
+  .ban h4{
+    font-size: 1em;
+  }
+
+  .ban hr{
+    widows: 50%;
+    border-top: white dotted;
+    width: 80%;
+  }
+
+  .icons{
+    font-size: 35px;  
+  }
+
+  .icons span{
+    padding:10px;
+  }
+  
+
+
+ 
 }
