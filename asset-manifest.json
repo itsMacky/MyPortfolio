@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.26e68399.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.d6c3cad9.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.d6c3cad9.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.bd9119cd.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.bd9119cd.js.map",
+    "static/css/2.e4346227.chunk.css": "/MyPortfolio/static/css/2.e4346227.chunk.css",
+    "static/js/2.b8256350.chunk.js": "/MyPortfolio/static/js/2.b8256350.chunk.js",
+    "static/js/2.b8256350.chunk.js.map": "/MyPortfolio/static/js/2.b8256350.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "precache-manifest.26ed0476bdd3dc52d487c932cf6cc733.js": "/MyPortfolio/precache-manifest.26ed0476bdd3dc52d487c932cf6cc733.js",
+    "service-worker.js": "/MyPortfolio/service-worker.js",
+    "static/css/2.e4346227.chunk.css.map": "/MyPortfolio/static/css/2.e4346227.chunk.css.map",
+    "static/css/main.26e68399.chunk.css.map": "/MyPortfolio/static/css/main.26e68399.chunk.css.map",
+    "static/js/2.b8256350.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.b8256350.chunk.js.LICENSE.txt",
+    "static/media/YanoneKaffeesatz-VariableFont_wght.ttf": "/MyPortfolio/static/media/YanoneKaffeesatz-VariableFont_wght.d3e30c39.ttf",
+    "static/media/mak.jpg": "/MyPortfolio/static/media/mak.9adc98bd.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd9119cd.js",
+    "static/css/2.e4346227.chunk.css",
+    "static/js/2.b8256350.chunk.js",
+    "static/css/main.26e68399.chunk.css",
+    "static/js/main.d6c3cad9.chunk.js"
+  ]
+}
